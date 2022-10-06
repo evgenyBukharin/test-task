@@ -1,0 +1,21 @@
+.btn {
+	&__primary {
+		margin-top: 24px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		padding: 12px 25px;
+		border-radius: 4px;
+		background: var(--white-color);
+		color: var(--black-color);
+		transition: transform 0.2s ease;
+		&:hover {
+			transform: translateY(-2px);
+		}
+		&-dark {
+			color: var(--white-color);
+			background: var(--black-color);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"exclude": [
+		"node_modules",
+		"public",
+		"vendor",
+		"gulpfile.js",
+		"package.json",
+		".stylelintrc",
+		"\\.md$",
+		"\\.php$"
+	]
+}

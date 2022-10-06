@@ -1,0 +1,64 @@
+<section class="order">
+	<div class="container order__container">
+		<h2 class="order__title title__primary title__primary-dark">
+			“LevelUp”. Продукт для повышения потенции.
+		</h2>
+		<div class="timer order__timer">
+			<h3 class="timer__title">До конца предложения осталось:</h3>
+			<div class="timer__content">
+				<div class="timer__item timer__minutes">
+					<div class="timer__value">30</div>
+					<span class="timer__label">минут</span>
+				</div>
+				<div class="timer__item timer__divider">:</div>
+				<div class="timer__item timer__seconds">
+					<div class="timer__value">00</div>
+					<span class="timer__label">секунд</span>
+				</div>
+			</div>
+		</div>
+		<div class="order__content">
+			<div class="order__product">
+				<img
+					loading="lazy"
+					src="./img/product.png"
+					class="image image__primary order__image"
+					alt="Изображение продукта"
+				/>
+				<div class="order__prices">
+					<span class="order__price order__price-old">2299 руб.</span>
+					<h3 class="order__price order__price-new">1899 руб.</h3>
+				</div>
+			</div>
+			<form
+				id="orderForm"
+				class="form order__form"
+				enctype="multipart/form-data"
+			>
+				<h3 class="form__title">Заказать товар</h3>
+				<input
+					type="text"
+					name="name"
+					id="nameInput"
+					class="form__input"
+					placeholder="Введите имя"
+					data-hint="Евгений Бухарин"
+				/>
+				<input
+					type="text"
+					name="tel"
+					id="telInput"
+					class="form__input"
+					placeholder="Введите телефон"
+					data-hint="+7 908-62-30-76"
+				/>
+				<button
+					class="btn-reset btn__primary btn__primary-dark order__btn"
+				>
+					Заказать
+				</button>
+				<div class="form__hint">Бухарин Евгений</div>
+			</form>
+		</div>
+	</div>
+</section>

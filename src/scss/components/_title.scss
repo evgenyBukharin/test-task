@@ -1,0 +1,27 @@
+.title {
+	&__primary {
+		color: var(--white-color);
+		font-size: 38px;
+		text-align: center;
+		margin: 0;
+		&-dark {
+			color: var(--black-color);
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.title {
+		&__primary {
+			font-size: 30px;
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.title {
+		&__primary {
+			font-size: 26px;
+		}
+	}
+}

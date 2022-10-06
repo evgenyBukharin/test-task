@@ -1,0 +1,45 @@
+.slide {
+	box-sizing: border-box;
+	padding: 30px;
+	background: var(--white-color);
+	max-width: auto;
+	transition: filter 0.4s ease-in-out, transform 0.2s ease-in-out;
+	filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.06))
+		drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.04))
+		drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.04));
+	&__header {
+		display: flex;
+		align-items: center;
+	}
+	&__author {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	&__bullet {
+		background-color: var(--black-color);
+		padding: 2.5px;
+		margin-right: 16px !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&:hover {
+		transform: translateY(-4px);
+	}
+}
+
+@media (max-width: 1024px) {
+	.slide {
+		max-width: auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.slide {
+		max-width: auto;
+	}
+}
